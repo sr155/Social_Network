@@ -1,1 +1,69 @@
-<p>header works!</p>
+<header>
+  <div class="container">
+    <div>
+      <img
+        src="../../assets/img/cglogo.png"
+        alt="DCX"
+        class="logo"
+        style="height: 50px; width: 200px"
+      />
+      <span> Social Netwroking for Everyone</span>
+    </div>
+    <!-- <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputEmail3"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail3"
+          placeholder="Email"
+        />
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputPassword3">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword3"
+          placeholder="Password"
+        />
+      </div>
+
+      <button type="submit" class="btn btn-default">Sign in</button><br />
+      <div class="checkbox">
+        <label> <input type="checkbox" /> Remember me </label>
+      </div>
+    </form> -->
+  </div>
+  <div class="sr">
+    <form [formGroup]="requiredForm" novalidate (ngSubmit)="submit" id="search" class="form-inline">
+        <!-- <label>Email <input type="text" name="s-user" id="s-user"></label>&nbsp;&nbsp;
+        <label>Password <input type="text" name="s-pass" id="s-pass"></label>&nbsp;&nbsp;&nbsp;
+        -->
+        
+          <label>Email:
+            <input   formControlName="email">
+          </label>
+         <small *ngIf="requiredForm.controls['email'].invalid && requiredForm.controls['email'].touched" class="alert">*Enter correct email.
+            <small *ngIf="requiredForm.controls['email'].errors?.['required']">
+            <!-- Email is required. -->
+            </small>
+         </small>
+       
+          <label>Password: </label>
+            <input type="password"    formControlName="password">
+        <small *ngIf="requiredForm.controls['password'].invalid && requiredForm.controls['password'].touched" class="alert">*Enter strong password.
+            <small *ngIf="requiredForm.controls['password'].errors?.['required']">
+            <!-- Password is required. -->
+            </small>
+          </small> &nbsp;&nbsp;
+          <button type="submit" [disabled]='requiredForm.invalid' routerLink="/products" routerLinkActive="active"  (click)="submit()">Login</button>
+        
+      </form>
+      
+    </div>
+    
+
+</header>

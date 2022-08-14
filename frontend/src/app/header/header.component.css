@@ -1,0 +1,41 @@
+header {
+    background-image: linear-gradient(#04519b, #044687 60%, #033769);
+    color: #fff;
+    min-height: 110px;
+    padding-top: 25px;
+}
+
+header form {
+    float: right;
+}
+
+header .logo {
+    float: left;
+}
+.panel-heading {
+    background-image: linear-gradient(#04519b, #044687 60%, #033769);
+    color: #fff !important;
+}
+
+#header form {
+    float: right; 
+    margin-right: 30px; 
+    height: 50px;
+    padding-top: 10px;
+    background-color: #009dffba;
+    padding: 12px;
+    margin-top: -25px;
+}
+input{
+    max-width: 100px;
+}
+.form-control {
+    width: 100%;
+    border: none;
+    padding: 10px 25px;
+}
+
+.alert{
+    text-align: center;
+    color: red;
+}
