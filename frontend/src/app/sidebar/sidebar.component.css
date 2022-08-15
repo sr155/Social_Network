@@ -1,22 +1,12 @@
-header {
-    background-image: linear-gradient(#04519b, #044687 60%, #033769);
-    color: #fff;
-    min-height: 100px;
-    padding-top: 25px;
-}
-
-header form {
-    float: right;
-}
-
-header .logo {
-    float: left;
-}
-
 .panel-heading {
-    background-image: linear-gradient(#04519b, #044687 60%, #033769);
+    background-image: linear-gradient(#04519b, #044687 40%, #033769);
     color: #fff !important;
-    border-radius: 2px;
+  
+}
+.col-md-4{
+    margin-left: 75%;
+    margin-top: 1%; 
+    
 }
 
 .comment-avatar img {
@@ -32,19 +22,23 @@ header .logo {
 }
 
 .friends img {
-    width: 55px;
+    width: 70px;
+    margin-top: 5%;
+    margin-bottom:5% ;
 }
 
 .groups img {
-    width: 80px;
+    width: 70px;
     float: left;
 }
 
 .group-item {
     padding-bottom: 10px;
     border: 1px solid #ccc;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     overflow: auto;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .bubble {
@@ -85,7 +79,16 @@ header .logo {
 	top:50%;
 }
 
-
+footer{
+	background:#f4f4f4;
+	height:90px;
+	color:#04519b;
+	font-weight: bold;
+	text-align: center;
+	padding-top:40px;
+	margin-top:30px;
+	border-top:7px solid #04519b;
+}
 
 .post-actions {
 	margin:5px;
@@ -150,24 +153,20 @@ header .logo {
 		padding-top:40px;
 	}
 }
-.container{
-    margin-top: 1%;
-    margin-left:1% ;
+.panel-heading{
+    border-radius: 6px;
 }
-.panel-body{
-    /* margin-top: 1%;
-    margin-right: 25%; */
-    border-radius: 2px;
+.border{
+    border-radius:2px;
+    width:70%;
+    margin-bottom: 1%;
+    
+    
 }
-.panel panel-default post{
-    border-radius: 2px;
+.span{
+    color: blue;
+    font-size: 20px;
 }
-img{
-    width:75px;
-}
-.post-avatar thumbnail{
-    border-radius: 2px;
-}
-.br{
-    border-radius: 2px;
+.clearfix{
+    margin-top: -0.2%;
 }

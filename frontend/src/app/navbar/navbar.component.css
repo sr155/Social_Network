@@ -1,8 +1,10 @@
 .navbar-light{
-    background-color: lightgray;
-    margin-top: 2%;
-    margin-left: 1%;
-    margin-right: 1%;
+    background-color: whitesmoke;
+    /* margin-top: 2%; */
+    /* margin-left: 1%;
+    margin-right: 1%; */
+    padding: 8px;
+    height: 40px;
   }
   .nav-link{
     color: grey;
@@ -15,3 +17,10 @@
   .nav-link:hover{
      color:blue;
   }
+  body{
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
