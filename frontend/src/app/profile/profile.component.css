@@ -2,6 +2,7 @@
     background-image: linear-gradient(#04519b, #044687 60%, #033769);
     color: #fff !important;
     border-radius: 2px;
+    width: 100%;
    
 }
 .profile{
@@ -10,11 +11,11 @@
 }
 
 
-.border{
+.col-md-12{
     border-radius:2px;
-    width:100%;
+    /* width:100%;
     margin-bottom: 1%;
-    
+     */
     
 }
 .span{
@@ -103,7 +104,7 @@
 .panel-heading1 {
     background-image: linear-gradient(#04519b, #044687 60%, #033769);
     color: #fff !important;
-    border-radius: 2px;
+    /* border-radius: 2px; */
     
 }
 .row{
@@ -111,4 +112,5 @@
 }
 .profile{
     margin-left: 2%;
+    margin-top: 2%;
 }
