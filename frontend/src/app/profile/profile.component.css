@@ -114,3 +114,46 @@
     margin-left: 2%;
     margin-top: 2%;
 }
+.border1{
+    border-radius:2px;
+     
+}
+.one{
+    border-radius: 1px;
+}
+
+input{
+    width:80%;
+}
+.form{
+    border: 1px solid black;
+    margin-top: -0.25%;
+}
+button{
+    border: 1px solid black;
+    /* margin-top: 1%; */
+   
+    margin-bottom: 1%;
+}
+.form-control{
+    width:90%;
+    height: 50px;
+    margin-top: 2%;
+    margin-left:5%;
+    height: 50px;
+}
+.button{
+    border: 1px solid black;
+    /* margin-top: 1%; */
+   margin-left: 2%;
+    margin-bottom: 1%;
+}
+.pull-right{
+    margin-right: 2%;
+}
+.row1{
+    border: 1px solid black;
+}
+.panel-title{
+    height: 10px;
+}

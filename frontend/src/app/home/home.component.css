@@ -1,49 +1,150 @@
-header {
-    background-image: linear-gradient(#04519b, #044687 60%, #033769);
-    color: #fff;
-    min-height: 100px;
-    padding-top: 25px;
-}
-
-header form {
-    float: right;
-}
-
-header .logo {
-    float: left;
-}
-
 .panel-heading {
     background-image: linear-gradient(#04519b, #044687 60%, #033769);
     color: #fff !important;
-    border-radius: 2px;
+    /* border-radius: 2px; */
+    
+    
+}
+/* .panel-body{
+    
+    width:100%;
+    margin-bottom: 1%; 
+    margin-right: 7%;
+    margin-left: 2%;
+} */
+.panel-heading1 {
+    background-image: linear-gradient(#04519b, #044687 10%, #033769);
+    color: #fff !important;
+    /* border-radius: 2px; */
+    
+   
 }
 
-.comment-avatar img {
-    width: 40px;
-    margin-right: 5px;
+.friends img {
+    width: 70px;
+    margin-top: 5%;
+    margin-bottom:5% ;
 }
 
+.groups img {
+    width: 70px;
+    float: left;
+}
 .friends li {
     list-style: none;
     display: inline;
     float: left;
     padding: 0 5px;
 }
-
-.friends img {
-    width: 55px;
+.border{
+    border-radius:2px;
+    width:80%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
+    margin-left:20%;
+    
 }
-
-.groups img {
-    width: 80px;
-    float: left;
-}
-
 .group-item {
     padding-bottom: 10px;
     border: 1px solid #ccc;
+    margin-bottom: 15px;
+    overflow: auto;
+    margin-left: 3%;
+    margin-right: 4%;
+}
+.span{
+    color: blue;
+    font-size: 20px;
+}
+.members{
+    margin-top:3%;
+    margin-left: 2%;
+}
+.col-md-3{
+    margin-top:3%;
+}
+.p{
+    margin-top:30%;
+    margin-right: 1%;
+}
+.img-thumbnail{
+    width:130px;
+}
+.text-center{
+    text-align: center;
+    margin-right: 40%;
+}
+.row{
+    margin-right:0% ;
+}
+.img{
+    width: 80px;
+    margin-left: 4%;
+    margin-top:4%;
+}
+.img1{
+    width: 60px;
+    margin-top: 2%;
+    
+}
+input{
+    width:80%;
+}
+.form{
+    border: 1px solid black;
+    margin-top: -1%;
+}
+button{
+    border: 1px solid black;
+    /* margin-top: 1%; */
+   
+    margin-bottom: 1%;
+}
+.form-control{
+    width:90%;
+    height: 50px;
+    margin-top: 2%;
+    margin-left:5%;
+    height: 50px;
+}
+.button{
+    border: 1px solid black;
+    /* margin-top: 1%; */
+   margin-left: 2%;
+    margin-bottom: 1%;
+}
+.pull-right{
+    margin-right: 2%;
+}
+.row1{
+    border: 1px solid black;
+}
+
+.post-actions {
+	margin:5px;
+} 
+.comment-form .form-group{
+	width:90%;
+}
+
+.comment-form input[type='text']{
+	width:100%;
+}
+
+.comment{
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding:3px;
+	margin:5px 0;
+	overflow:auto;
+	width:100%;
+}
+
+.members .member-row{
+    border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
+    padding-bottom: 10px;
     overflow: auto;
 }
 
@@ -55,6 +156,8 @@ header .logo {
     background: #fff;
     padding: 15px;
     min-height: 65px;
+    margin-left: 15%;
+    margin-top: -0.2%;
 }
 
 .bubble:after {
@@ -84,90 +187,13 @@ header .logo {
 	left:-16px;
 	top:50%;
 }
-
-
-
-.post-actions {
-	margin:5px;
-} 
-.comment-form .form-group{
-	width:90%;
+.user{
+    border: 1px solid black;
+    margin-top: 4%;
+    margin-left: 4%;
+    width:90px;
 }
-
-.comment-form input[type='text']{
-	width:100%;
-}
-
-.comment{
-	border:1px solid #ccc;
-	border-radius: 5px;
-	padding:3px;
-	margin:5px 0;
-	overflow:auto;
-	width:100%;
-}
-
-.members .member-row{
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    overflow: auto;
-}
-
-.members img{
-    margin-bottom: 5px;
-}
-.groups img{
-	width:80px;
-	float:left;
-	margin-right:15px;
-}
-
-.group-item{
-	padding-bottom:10px;
-	margin-bottom:20px;
-	border-bottom:1px solid #ccc;
-	overflow:auto;
-}
-
-.photos{
-    margin: 0;
-    padding: 0;
-    
-}
-.photos img{
-    width:100%;
-}
-
-.photos li{
-    list-style: none;
-    float:left;
-    margin:5px;
-    width:23%;
-}
-@media(min-width: 991px){
-	.members p{
-		padding-top:40px;
-	}
-}
-.container{
-    margin-top: 1%;
-    margin-left:1% ;
-}
-.panel-body{
-    /* margin-top: 1%;
-    margin-right: 25%; */
-    border-radius: 2px;
-}
-.panel panel-default post{
-    border-radius: 2px;
-}
-img{
-    width:75px;
-}
-.post-avatar thumbnail{
-    border-radius: 2px;
-}
-.br{
-    border-radius: 2px;
+.text-center{
+    color: blue;
+    margin-left: 8%;
 }
